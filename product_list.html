@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>product_list.html</title>
+
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    <meta name="content-type" content="text/html; charset=UTF-8">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link href="../../css/memo.css" rel="stylesheet" type="text/css" />
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+    <style>
+        ul {
+            list-style: none;
+        }
+
+        nav {
+            height: 40px;
+            margin: 40px auto;
+            background-color: rgba(23, 23, 50, 0.7);
+            text-align: center;
+            border-radius: 4px;
+        }
+
+        .main {
+            display: flex;
+            justify-content: center;
+        }
+
+        .main>li {
+            margin: 0 2%;
+        }
+
+        .main>li a {
+            border-left: 1px solid rgba(23, 23, 50, 1);
+        }
+
+        a {
+            text-decoration: none;
+            color: #ffe;
+            text-transform: capitalize;
+            font-family: monospace;
+            display: block;
+            padding: 10px 15px;
+            font-size: 16px;
+            transition: background-color 0.5s ease-in-out;
+
+            font-family: "Raleway", sans-serif;
+        }
+
+        a:hover {
+            background-color: #631818;
+        }
+
+        .drop li {
+            opacity: 0;
+            transform-origin: top center;
+        }
+
+        .drop li a {
+            background-color: rgba(23, 23, 50, 0.7);
+            padding: 10px 0;
+        }
+
+        /*------------- menu1 animation -------------------*/
+
+        .main li:hover .menu1 li:first-of-type {
+            animation: menu1 0.3s ease-in-out forwards;
+            animation-delay: 0.3s;
+        }
+
+        .main li:hover .menu1 li:nth-of-type(2) {
+            animation: menu1 0.3s ease-in-out forwards;
+            animation-delay: 0.6s;
+        }
+
+        .main li:hover .menu1 li:nth-of-type(3) {
+            animation: menu1 0.3s ease-in-out forwards;
+            animation-delay: 0.9s;
+        }
+
+        .main li:hover .menu1 li:last-of-type {
+            animation: menu1 0.3s ease-in-out forwards;
+            animation-delay: 1.2s;
+        }
+
+        @keyframes menu1 {
+            from {
+                opacity: 0;
+                transform: translateX(30px) rotateY(90deg);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0) rotateY(0);
+            }
+        }
+
+        /*------------- menu2 animation -------------------*/
+
+        .main li:hover .menu2 li:first-of-type {
+            animation: menu2 0.3s ease-in-out forwards;
+            animation-delay: 0.3s;
+        }
+
+        .main li:hover .menu2 li:nth-of-type(2) {
+            animation: menu2 0.3s ease-in-out forwards;
+            animation-delay: 0.6s;
+        }
+
+        .main li:hover .menu2 li:nth-of-type(3) {
+            animation: menu2 0.3s ease-in-out forwards;
+            animation-delay: 0.9s;
+        }
+
+        .main li:hover .menu2 li:last-of-type {
+            animation: menu2 0.3s ease-in-out forwards;
+            animation-delay: 1.2s;
+        }
+
+        @keyframes menu2 {
+            0% {
+                opacity: 0;
+                transform: scale(0.7);
+            }
+
+            50% {
+                opacity: 0.5;
+                transform: scale(1.1);
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        /*------------- menu3 animation -------------------*/
+
+        .main li:hover .menu3 li:first-of-type {
+            animation: menu3 0.3s ease-in-out forwards;
+            animation-delay: 0.3s;
+        }
+
+        .main li:hover .menu3 li:nth-of-type(2) {
+            animation: menu3 0.3s ease-in-out forwards;
+            animation-delay: 0.6s;
+        }
+
+        .main li:hover .menu3 li:nth-of-type(3) {
+            animation: menu3 0.3s ease-in-out forwards;
+            animation-delay: 0.9s;
+        }
+
+        .main li:hover .menu3 li:last-of-type {
+            animation: menu3 0.3s ease-in-out forwards;
+            animation-delay: 1.2s;
+        }
+
+        @keyframes menu3 {
+            0% {
+                opacity: 0;
+                transform: translateX(20px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        /*------------- menu4 animation -------------------*/
+
+        .main li:hover .menu4 li:first-of-type {
+            animation: menu4 0.3s ease-in-out forwards;
+            animation-delay: 0.3s;
+        }
+
+        .main li:hover .menu4 li:nth-of-type(2) {
+            animation: menu4 0.3s ease-in-out forwards;
+            animation-delay: 0.6s;
+        }
+
+        .main li:hover .menu4 li:nth-of-type(3) {
+            animation: menu4 0.3s ease-in-out forwards;
+            animation-delay: 0.9s;
+        }
+
+        .main li:hover .menu4 li:last-of-type {
+            animation: menu4 0.3s ease-in-out forwards;
+            animation-delay: 1.2s;
+        }
+
+        @keyframes menu4 {
+            0% {
+                opacity: 0;
+                transform: translateX(50px) rotate(-90deg);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateX(0) rotate(0);
+            }
+        }
+
+        /*------------- menu5 animation -------------------*/
+
+        .main li:hover .menu5 li:first-of-type {
+            animation: menu5 0.3s ease-in-out forwards;
+            animation-delay: 0.3s;
+        }
+
+        .main li:hover .menu5 li:nth-of-type(2) {
+            animation: menu5 0.3s ease-in-out forwards;
+            animation-delay: 0.6s;
+        }
+
+        .main li:hover .menu5 li:nth-of-type(3) {
+            animation: menu5 0.3s ease-in-out forwards;
+            animation-delay: 0.9s;
+        }
+
+        .main li:hover .menu5 li:last-of-type {
+            animation: menu5 0.3s ease-in-out forwards;
+            animation-delay: 1.2s;
+        }
+
+        @keyframes menu5 {
+            0% {
+                opacity: 0;
+                transform: rotateX(-90deg);
+            }
+
+            100% {
+                opacity: 1;
+                transform: rotateX(0);
+            }
+        }
+
+        /*------------- menu6 animation -------------------*/
+
+        .main li:hover .menu6 li:first-of-type {
+            animation: menu6 0.3s ease-in-out forwards;
+            animation-delay: 0.2s;
+        }
+
+        .main li:hover .menu6 li:nth-of-type(2) {
+            animation: menu6 0.3s ease-in-out forwards;
+            animation-delay: 0.4s;
+        }
+
+        .main li:hover .menu6 li:nth-of-type(3) {
+            animation: menu6 0.3s ease-in-out forwards;
+            animation-delay: 0.6s;
+        }
+
+        .main li:hover .menu6 li:last-of-type {
+            animation: menu6 0.3s ease-in-out forwards;
+            animation-delay: 0.8s;
+        }
+
+        @keyframes menu6 {
+            0% {
+                opacity: 0;
+                transform: scale(2);
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        /* my button style */
+        .white-mode {
+            text-decoration: none;
+            padding: 7px 10px;
+            background-color: #122;
+            border-radius: 3px;
+            color: #fff;
+            transition: 0.35s ease-in-out;
+            position: absolute;
+            left: 15px;
+            bottom: 15px;
+            font-family: sans-serif;
+        }
+
+        .white-mode:hover {
+            background-color: #fff;
+            color: #122;
+        }
+
+    </style>
+    <script type="text/javascript">
+        function add_hint() {
+            alert("Add successfully!");
+            return;
+        }
+
+    </script>
+
+</head>
+
+<body style="background: url(../../media/cm.jpg);background-size:cover">
+
+    <div class="text-center">
+        <h1 style="text-align:center">HLWY-Buy</h1>
+    </div>
+
+    <p style="margin:20px"></p>
+
+    <nav>
+        <ul class="main">
+            <li><a href="../cart_list/">Shopping Cart</a></li>
+            <li><a href="../cart_reset/">Clear Cart</a></li>
+            <li><a href="../order/">Payment</a></li>
+    </nav>
+
+    <div align="center">
+        <table class="table table-bordered margin-top:-50px" width=100% align=center>
+            <thead>
+                <tr class="active">
+                    <td align="center">
+                        <h4>Product Name</h4>
+                    </td>
+                    <td align="center">
+                        <h4>Image</h4>
+                    </td>
+                    <td align="center">
+                        <h4>Stock</h4>
+                    </td>
+                    <td align="center">
+                        <h4>Price</h4>
+                    </td>
+                    <td align="center">
+                        <h4> </h4>
+                    </td>
+                </tr>
+            </thead>
+
+            {% for product in products %}
+            <tbody>
+                <tr>
+                    <td align="center">
+                        <h3>{{ product.name }}</h3>
+                    </td>
+                    <td align="center"><img height=150 src="../../media/{{ product.image }}" alt="" width="200"
+                            height="200" border="0" /></td>
+                    <td align="center">
+                        <h3>{{ product.stock }}</h3>
+                    </td>
+                    <td align="center">
+                        <h3>{{ product.price }}</h3>
+                    </td>
+                    <td align="center"><a href="../cart_add/{{ product.id }}" onclick="add_hint()">
+                            <h3 class="btn btn-info">Add to Cart</h3>
+                        </a></td>
+                </tr>
+                {% endfor %}
+
+
+</body>
+
+</html>
