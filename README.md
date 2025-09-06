@@ -46,8 +46,8 @@ I turn ☕ into code, bugs into features, and ideas into reality.<br/>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Open%20Source%20Contributor-E25000?style=for-the-badge&logo=github&logoColor=00B0E2"/>
-  <img src="https://img.io/badge/Top%20Stack%20Overflow%20Answerer-00B0E2?style=for-the-badge&logo=stackoverflow&logoColor=E25000"/>
-  <img src="https://img.io/badge/Continuous%20Learner-E200B0?style=for-the-badge&logo=bookstack&logoColor=00B0E2"/>
+  <img src="https://img.shields.io/badge/Top%20Stack%20Overflow%20Answerer-00B0E2?style=for-the-badge&logo=stackoverflow&logoColor=E25000"/>
+  <img src="https://img.shields.io/badge/Continuous%20Learner-E200B0?style=for-the-badge&logo=bookstack&logoColor=00B0E2"/>
 </p>
 
 <p align="center">
@@ -63,9 +63,9 @@ I turn ☕ into code, bugs into features, and ideas into reality.<br/>
 ## 🔥 Programmer Activity
 
 <p align="center">
-  <img src="https://img.io/badge/Always%20Coding-E25000?style=for-the-badge&logo=visualstudiocode&logoColor=00B0E2"/>
-  <img src="https://img.io/badge/Weekly%20Commits-00B0E2?style=for-the-badge&logo=git&logoColor=E25000"/>
-  <img src="https://img.io/badge/Open%20Source%20Active-E200B0?style=for-the-badge&logo=github&logoColor=00B0E2"/>
+  <img src="https://img.shields.io/badge/Always%20Coding-E25000?style=for-the-badge&logo=visualstudiocode&logoColor=00B0E2"/>
+  <img src="https://img.shields.io/badge/Weekly%20Commits-00B0E2?style=for-the-badge&logo=git&logoColor=E25000"/>
+  <img src="https://img.shields.io/badge/Open%20Source%20Active-E200B0?style=for-the-badge&logo=github&logoColor=00B0E2"/>
 </p>
 
 <p align="center">
@@ -85,15 +85,15 @@ I turn ☕ into code, bugs into features, and ideas into reality.<br/>
 ## 🛸 Tech Arsenal
 
 <p align="center">
-  <img src="https://img.io/badge/-JavaScript-E25000?style=for-the-badge&logo=javascript&logoColor=E200B0"/>
-  <img src="https://img.io/badge/-TypeScript-00B0E2?style=for-the-badge&logo=typescript&logoColor=E200B0"/>
-  <img src="https://img.io/badge/-Python-E200B0?style=for-the-badge&logo=python&logoColor=E25000"/>
-  <img src="https://img.io/badge/-Go-E25000?style=for-the-badge&logo=go&logoColor=E200B0"/>
-  <img src="https://img.io/badge/-React-00B0E2?style=for-the-badge&logo=react&logoColor=E200B0"/>
-  <img src="https://img.io/badge/-Next.js-E200B0?style=for-the-badge&logo=next.js&logoColor=E25000"/>
-  <img src="https://img.io/badge/-Node.js-E25000?style=for-the-badge&logo=node.js&logoColor=00B0E2"/>
-  <img src="https://img.io/badge/-Docker-00B0E2?style=for-the-badge&logo=docker&logoColor=E200B0"/>
-  <img src="https://img.io/badge/-GitHub%20Actions-E200B0?style=for-the-badge&logo=github-actions&logoColor=00B0E2"/>
+  <img src="https://img.shields.io/badge/-JavaScript-E25000?style=for-the-badge&logo=javascript&logoColor=E200B0"/>
+  <img src="https://img.shields.io/badge/-TypeScript-00B0E2?style=for-the-badge&logo=typescript&logoColor=E200B0"/>
+  <img src="https://img.shields.io/badge/-Python-E200B0?style=for-the-badge&logo=python&logoColor=E25000"/>
+  <img src="https://img.shields.io/badge/-Go-E25000?style=for-the-badge&logo=go&logoColor=E200B0"/>
+  <img src="https://img.shields.io/badge/-React-00B0E2?style=for-the-badge&logo=react&logoColor=E200B0"/>
+  <img src="https://img.shields.io/badge/-Next.js-E200B0?style=for-the-badge&logo=next.js&logoColor=E25000"/>
+  <img src="https://img.shields.io/badge/-Node.js-E25000?style=for-the-badge&logo=node.js&logoColor=00B0E2"/>
+  <img src="https://img.shields.io/badge/-Docker-00B0E2?style=for-the-badge&logo=docker&logoColor=E200B0"/>
+  <img src="https://img.shields.io/badge/-GitHub%20Actions-E200B0?style=for-the-badge&logo=github-actions&logoColor=00B0E2"/>
 </p>
 
 <p align="center">
@@ -122,7 +122,7 @@ I turn ☕ into code, bugs into features, and ideas into reality.<br/>
 </div>
 
 <div align="center">
-  <img src="https://img.io/github/stars/EnricoCC?affiliations=OWNER%2CCOLLABORATOR&label=Total%20Stars&logo=github&color=E25000&style=for-the-badge"/>
+  <img src="https://img.shields.io/github/stars/EnricoCC?affiliations=OWNER%2CCOLLABORATOR&label=Total%20Stars&logo=github&color=E25000&style=for-the-badge"/>
 </div>
 
 <p align="center">
